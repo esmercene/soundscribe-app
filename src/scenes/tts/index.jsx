@@ -258,29 +258,3 @@ const TextToSpeech = ({ setDownloadedProjects }) => {
 };
 
 export default TextToSpeech;
-
-{/* <Button onClick={handleUndo} disabled={step === 0}
-                      sx={{
-                        backgroundColor: colors.blueAccent[700],
-                        color: colors.grey[100],
-                        fontSize: "12px",
-                        padding: "10px 20px",
-                        marginLeft: "560px",
-                        align: "center"
-                      }}
-              >
-                <UndoOutlined /> Undo
-              </Button>
-              <Button onClick={handleRedo} disabled={step === history.length - 1}
-                      sx={{
-                        backgroundColor: colors.blueAccent[700],
-                        color: colors.grey[100],
-                        fontSize: "12px",
-                        padding: "10px 20px",
-                        marginLeft: "10px",
-                        align: "center"
-                      }}
-              >
-                Redo <RedoOutlined />
-              </Button> */}
-            
